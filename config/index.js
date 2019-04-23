@@ -30,7 +30,6 @@ module.exports = {
     proxyTable: {
         '/api': {
             target: 'http://118.190.116.154:8070/',
-            // target: 'http://datacrm.in.hillinsight.com',
             changeOrigin: true,
             pathRewrite: {
               '^/api': '/'
